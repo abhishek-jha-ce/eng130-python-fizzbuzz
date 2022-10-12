@@ -4,7 +4,7 @@
 # For the multiples of five print "Buzz" instead of the number For numbers which are multiples of both three and five
 # print "FizzBuzz".
 
-num = 1
+num = 1 # Initialize the counter
 
 while num <= 100:
     if num % 15 == 0:
@@ -16,4 +16,3 @@ while num <= 100:
     else:
         print(num)
     num += 1  # Incrementing the number, else infinite loop
-
